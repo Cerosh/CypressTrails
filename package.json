@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "test":"cypress run",
-    "one": "cypress run --spec cypress/integration/3-stage-1/hello-world-spec.ts --browser chrome"
+    "one": "cypress run --spec cypress/integration/3-stage-1/hello-world-spec.ts"
   },
   "author": "Cerosh",
   "license": "ISC",

@@ -36,7 +36,7 @@ describe("First cypress Test", ()=>{
         const date = new Date(2021,10,22).getTime()
         cy.clock(date)
         
-        cy.log("date")
+        cy.log(string(date))
         
         
     })

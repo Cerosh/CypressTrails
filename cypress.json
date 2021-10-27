@@ -3,5 +3,19 @@
     "reporterOptions": {
       "mochaFile": "results/my-test-output.xml",
       "toConsole": true
-    }
+    },
+    "watchForFileChanges":false,
+    "viewportWidth":1000,
+    "viewportHeight":660,
+    "waitForAnimations":true,
+    "animationDistanceThreshold":20,
+    "defaultCommandTimeout":4000,
+    "execTimeout":6000,
+    "pageLoadTimeout":6000,
+    "requestTimeout":5000,
+    "responseTimeout":30000,
+    "video":false,
+    "failOnStatusCode":false,
+    "ignoreTestFiles":["**/2-advanced-examples/*","**/1-getting-started/*"]
   }
+  

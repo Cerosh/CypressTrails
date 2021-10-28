@@ -17,6 +17,8 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
+          command: cypress run --record --key d0ca14e1-ecea-4bb3-9a47-865d7f412a92
+          record: true
           executor: with-chrome
           browser: chrome
           store_artifacts: true

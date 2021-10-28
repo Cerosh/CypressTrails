@@ -14,4 +14,4 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
-          store_artifacts: true
+          browser: chrome

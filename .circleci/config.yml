@@ -19,5 +19,6 @@ workflows:
       - cypress/run:
           requires:
             - cypress/install
+          yarn: true
           parallel: true
           parallelism: 2

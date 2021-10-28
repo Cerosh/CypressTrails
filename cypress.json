@@ -1,9 +1,4 @@
 {
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "results/my-test-output.xml",
-    "toConsole": true
-  },
   "env": {
     "CYPRESS_RECORD_KEY": "d0ca14e1-ecea-4bb3-9a47-865d7f412a92"
    },

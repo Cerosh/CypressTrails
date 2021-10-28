@@ -1,4 +1,11 @@
-{
+{"reporter": "mochawesome",
+  "reporterOptions": {
+      "reportDir": "cypress/reports/mochawesome-report",
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "timestamp": "mmddyyyy_HHMMss"
+   },
   "env": {
     "CYPRESS_RECORD_KEY": "d0ca14e1-ecea-4bb3-9a47-865d7f412a92"
    },

@@ -9,8 +9,8 @@
     "one": "cypress run --spec cypress/integration/3-stage-1/hello-world-spec.ts",
     "cleanup": "rm -rf mochawesome-report/",
     "merge_reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
-    "create:html:report":"marge --reportDir TestReport cypress-tests-report.json",
-    "generate:html:report":"npm run merge_reports && npm run create:html:report",
+    "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
+    "generate:html:report": "npm run merge_reports && npm run create:html:report",
     "test-junit": "cypress run --reporter junit --reporter-options 'mochaFile=junit-results/my-test-output.xml' --browser chrome",
     "test-multiple": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json",
     "test-mochawesome": "npm run cleanup && cypress run && npm run generate:html:report"
@@ -42,5 +42,8 @@
     "temp-write": "4.0.0",
     "ts-node": "9.1.1",
     "typescript": "^4.4.4"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
   }
 }

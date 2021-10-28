@@ -20,4 +20,7 @@ workflows:
           executor: with-chrome
           browser: chrome
           store_artifacts: true
+          post-steps:
+            - store_test_results:
+                path: cypress/results
           

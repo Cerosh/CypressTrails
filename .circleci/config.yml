@@ -17,12 +17,12 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
-          command: npm run cy:report
-          record: true
           executor: with-chrome
           browser: chrome
+          command: npm run cy:report
+          record: true
           store_artifacts: true
           post-steps:
             - store_test_results:
-                path: cypress/reports/mochawesome-report
+                path: cypress/reports/mochawesome-html-report/
           

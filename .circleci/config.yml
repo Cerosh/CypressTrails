@@ -15,10 +15,9 @@ workflows:
   build: # This is the name of the workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - cypress/install
       - cypress/run:
-          requires:
-            - cypress/install
           yarn: true
-          parallel: true
-          parallelism: 2
+          executor: with-chrome
+          browser: chrome
+          store_artifacts: true
+          

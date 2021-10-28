@@ -32,7 +32,7 @@ describe("First cypress Test", ()=>{
             expect(text).to.contains('Registration Done!');
           })
     })
-    it("Override the current time", ()=>{
+    it.skip("Override the current time", ()=>{
         const date = new Date(2021,10,22).getTime()
         cy.clock(date)
         

@@ -20,6 +20,6 @@ workflows:
           executor: with-chrome
           browser: chrome
           store_artifacts: true
-          post-steps:
-            - store_test_results:
-                path: cypress/results
+          parallel: true
+          parallelism: 2
+          group: 2 machines

@@ -10,7 +10,7 @@
     "cleanup": "rm -fr cypress/reports/mochawesome-html-report",
     "merge_reports": "mochawesome-merge cypress/reports/mochawesome-report/*.json > output.json",
     "mochawesome_report": "marge --reportDir cypress/reports/mochawesome-html-report -t Cypress_Test_Report -p Cypress_HMTL_Report -f Cypress_HMTL_Report --timestamp mmddyyyy_HHMMss --charts true output.json",
-    "cy:report": "npm run cleanup && cypress run && npm run merge_reports && npm run mochawesome_report"
+    "cy:report": "npm run cleanup && cypress run --record --key d0ca14e1-ecea-4bb3-9a47-865d7f412a92 && npm run merge_reports && npm run mochawesome_report"
   },
   "author": "Cerosh",
   "license": "ISC",

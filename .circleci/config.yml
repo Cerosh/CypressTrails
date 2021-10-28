@@ -22,6 +22,8 @@ workflows:
           command: npm run cy:report
           record: true
           store_artifacts: true
-          post-steps:
-            - store_test_results:
-                path: cypress/reports
+      - run:
+          name: Running E2E tests with JUnit reporter
+          command: npm run test-junit
+      - store_test_results:
+          path: junit-results

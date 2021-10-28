@@ -24,5 +24,5 @@ workflows:
           store_artifacts: true
           post-steps:
             - store_test_results:
-                path: reports/mochawesome-report
+                path: cypress/reports/mochawesome-report
           

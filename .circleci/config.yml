@@ -13,8 +13,6 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - cypress/run:
-          executor: with-chrome
-          browser: chrome
           yarn: true
           store_artifacts: true
           record: true

@@ -1,10 +1,8 @@
-{"reporter": "mochawesome",
+{"reporter": "../node_modules/mochawesome/src/mochawesome.js",
   "reporterOptions": {
-      "reportDir": "cypress/reports/mochawesome-report",
-      "overwrite": true,
+      "overwrite": false,
       "html": false,
-      "json": true,
-      "timestamp": "mmddyyyy_HHMMss"
+      "json": true
    },
   "env": {
     "CYPRESS_RECORD_KEY": "d0ca14e1-ecea-4bb3-9a47-865d7f412a92"

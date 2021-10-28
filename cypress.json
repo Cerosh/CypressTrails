@@ -6,8 +6,7 @@
   },
   "env": {
     "CYPRESS_RECORD_KEY": "d0ca14e1-ecea-4bb3-9a47-865d7f412a92"
-   
-  },
+   },
   "watchForFileChanges": false,
   "viewportWidth": 1000,
   "viewportHeight": 660,

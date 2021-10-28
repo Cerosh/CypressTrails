@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run":"cypress run",
+    "cy:run":"cypress run --record --key d0ca14e1-ecea-4bb3-9a47-865d7f412a92",
     "one": "cypress run --spec cypress/integration/3-stage-1/hello-world-spec.ts"
   },
   "author": "Cerosh",

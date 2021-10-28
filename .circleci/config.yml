@@ -6,7 +6,10 @@ version: 2.1
 orbs:
 # Declare a dependency on the welcome-orb
   cypress: cypress-io/cypress@1
-
+executors:
+  with-chrome:
+    docker:
+      - image: 'cypress/browsers:node14.16.0-chrome90-ff88'
 # Invoke jobs via workflows
 workflows:
   build: # This is the name of the workflow.
@@ -14,4 +17,5 @@ workflows:
     jobs:
       - cypress/run:
           yarn: true
+          executor: with-chrome
           browser: chrome

@@ -18,10 +18,7 @@
     "cypress": "^8.7.0",
     "mocha": "^7.2.0",
     "mocha-junit-reporter": "^2.0.2",
-    "mocha-multi-reporters": "^1.5.1",
-    "mochawesome": "^6.3.1",
-    "mochawesome-merge": "^4.0.3",
-    "prettier": "^2.4.1"
+    "mocha-multi-reporters": "^1.5.1"
   },
   "devDependencies": {
     "typescript": "^4.4.4"

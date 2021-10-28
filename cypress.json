@@ -1,4 +1,4 @@
-{"reporter": "../node_modules/mochawesome/src/mochawesome.js",
+{"reporter": "mochawesome",
   "reporterOptions": {
       "overwrite": false,
       "html": false,

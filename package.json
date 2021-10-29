@@ -12,7 +12,7 @@
     "merge-junit-reports": "jrm cypress/reports/junit-merged-report.xml \"junit-results/junit.*.xml\"",
     "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
     "generate:html:report": "npm run merge_reports && npm run create:html:report",
-    "test-junit": "npm run cleanup && cypress run --reporter junit  --browser chrome && npm run merge-junit-reports",
+    "test-junit": "npm run cleanup && cypress run --reporter junit  --browser chrome",
     "test-multiple": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json",
     "test-mochawesome": "npm run cleanup && cypress run && npm run generate:html:report"
   },

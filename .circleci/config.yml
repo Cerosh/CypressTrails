@@ -15,7 +15,7 @@ workflows:
           browser: chrome
           post-steps:
             - store_test_results:
-                path: cypress/reports
+                path: junit-results
             - store_artifacts:
                 path: cypress/screenshots
             - store_artifacts:

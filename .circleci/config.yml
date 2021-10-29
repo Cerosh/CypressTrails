@@ -11,6 +11,8 @@ workflows:
       - cypress/run:
           name: update npm
           command: "npm run test-junit"
+          executor: with-chrome
+          browser: chrome
           post-steps:
             - store_test_results:
                 path: cypress/reports

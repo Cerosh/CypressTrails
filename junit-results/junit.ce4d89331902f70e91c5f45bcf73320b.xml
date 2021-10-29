@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="true" time="3.5140" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2021-10-29T01:59:03" tests="0" file="cypress/integration/3-stage-1/1-css-selector.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Identifiers using CSS-Selectors" timestamp="2021-10-29T01:59:03" tests="10" time="3.5140" failures="0">
+    <testcase name="Identifiers using CSS-Selectors Identify the element using class name" time="0.8030" classname="Identify the element using class name">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the element using id" time="0.1100" classname="Identify the element using id">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Assert the title of the page" time="0.0420" classname="Assert the title of the page">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the element using AND" time="0.0850" classname="Identify the element using AND">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the element using Contains" time="0.0780" classname="Identify the element using Contains">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the element using Starts with" time="0.0650" classname="Identify the element using Starts with">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the element using Ends with" time="1.8840" classname="Identify the element using Ends with">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the Count of all child node" time="0.1480" classname="Identify the Count of all child node">
+    </testcase>
+    <testcase name="Identifiers using CSS-Selectors Identify the all the siblings" time="0.2990" classname="Identify the all the siblings">
+    </testcase>
+  </testsuite>
+</testsuites>

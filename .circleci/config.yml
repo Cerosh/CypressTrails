@@ -1,12 +1,17 @@
 version: 2.1
 orbs:
   cypress: cypress-io/cypress@1
+executors:
+  with-chrome:
+    docker:
+      - image: 'cypress/browsers:chrome94'
 workflows:
   build:
     jobs:
       - cypress/run:
           name: update npm
           command: "npm run test-junit"
+          executor: with-chrome
           post-steps:
             - store_test_results:
                 path: junit-results

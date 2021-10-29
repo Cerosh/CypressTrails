@@ -9,4 +9,6 @@ workflows:
             - store_test_results:
                 path: mochawesome-report
             - store_artifacts:
-                path: mochawesome-report
+                path: cypress/screenshots
+            - store_artifacts:
+                path: cypress/videos

@@ -9,7 +9,7 @@
     "one": "cypress run --spec cypress/integration/3-stage-1/hello-world-spec.ts",
     "cleanup": "rm -rf junit-results/",
     "merge_reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
-    "merge-junit-reports": "jrm cypress/reports/junit-merged-report.xml junit-results/junit.*.xml",
+    "merge-junit-reports": "jrm cypress/reports/junit-merged-report.xml \"junit-results/junit.*.xml\"",
     "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
     "generate:html:report": "npm run merge_reports && npm run create:html:report",
     "test-junit": "npm run cleanup && cypress run --reporter junit  --browser chrome && npm run merge-junit-reports",

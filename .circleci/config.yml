@@ -6,10 +6,10 @@ workflows:
     jobs:
       - cypress/run:
           name: update npm
-          command: "npx cypress run"
+          command: "npm run test-junit"
           post-steps:
             - store_test_results:
-                path: mochawesome-report
+                path: junit-results
             - store_artifacts:
                 path: cypress/screenshots
             - store_artifacts:

@@ -11,7 +11,7 @@
     "merge_reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
     "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
     "generate:html:report": "npm run merge_reports && npm run create:html:report",
-    "test-junit": "cypress run --reporter junit --reporter-options 'mochaFile=junit-results/my-test-output.xml' --browser chrome",
+    "test-junit": "cypress run --reporter junit --reporter-options 'mochaFile=junit-results/my-test-output.xml'",
     "test-multiple": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json",
     "test-mochawesome": "npm run cleanup && cypress run && npm run generate:html:report"
   },

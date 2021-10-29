@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.9560" tests="9" failures="0" skipped="1">
-  <testsuite name="Root Suite" timestamp="2021-10-28T18:43:00" tests="0" file="cypress/integration/3-stage-1/hello-world-spec.ts" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="2.2850" tests="9" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2021-10-29T00:55:10" tests="0" file="cypress/integration/3-stage-1/hello-world-spec.ts" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="First cypress Test" timestamp="2021-10-28T18:43:00" tests="9" time="1.9560" failures="0">
-    <testcase name="First cypress Test Launch the URL" time="0.4020" classname="Launch the URL">
+  <testsuite name="First cypress Test" timestamp="2021-10-29T00:55:10" tests="9" time="2.2850" failures="0">
+    <testcase name="First cypress Test Launch the URL" time="0.6670" classname="Launch the URL">
     </testcase>
-    <testcase name="First cypress Test Assert the URL" time="0.0280" classname="Assert the URL">
+    <testcase name="First cypress Test Assert the URL" time="0.0190" classname="Assert the URL">
     </testcase>
-    <testcase name="First cypress Test Enter the full name" time="1.0190" classname="Enter the full name">
+    <testcase name="First cypress Test Enter the full name" time="1.0230" classname="Enter the full name">
     </testcase>
-    <testcase name="First cypress Test Read text and and chain assertion" time="0.0170" classname="Read text and and chain assertion">
+    <testcase name="First cypress Test Read text and and chain assertion" time="0.0210" classname="Read text and and chain assertion">
     </testcase>
-    <testcase name="First cypress Test Count the number of elements" time="0.0300" classname="Count the number of elements">
+    <testcase name="First cypress Test Count the number of elements" time="0.0550" classname="Count the number of elements">
     </testcase>
-    <testcase name="First cypress Test Use of Check box" time="0.1210" classname="Use of Check box">
+    <testcase name="First cypress Test Use of Check box" time="0.1330" classname="Use of Check box">
     </testcase>
-    <testcase name="First cypress Test Submitting the registration form with logging enabled" time="0.3140" classname="Submitting the registration form with logging enabled">
+    <testcase name="First cypress Test Submitting the registration form with logging enabled" time="0.3420" classname="Submitting the registration form with logging enabled">
     </testcase>
     <testcase name="First cypress Test Assert the alert" time="0.0250" classname="Assert the alert">
     </testcase>

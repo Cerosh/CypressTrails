@@ -4,7 +4,9 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run:
+      - run:
+          name: update npm
+          command: "npx cypress run"
           post-steps:
             - store_test_results:
                 path: mochawesome-report
